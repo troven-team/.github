@@ -1,58 +1,53 @@
 # TROVΞN  
 ### Community Systems Architect  
-*Designing human protocols for digital tribes*
 
 ---
 
 ## PRINCIPLES  
 ```rust
-// src/manifesto.rs
-pub struct Philosophy {
-    pub trust_as_primitive: bool, // = true
-    pub chaos_to_cohesion: fn(Community) -> Ecosystem,
-    pub failure_modes: Vec<FailureMode> = vec![
-        FailureMode::Centralization,
-        FailureMode::InvisibleLabour,
-    ],
+// principles.rs
+#[derive(Default)]
+pub struct CommunityProtocol {
+    pub trust_graph: Graph<N>,
+    pub failure_modes: Vec<FailureMode>,
+}
+
+#[derive(Clone)]
+pub enum FailureMode {
+    Centralization,
+    InvisibleLabour,
+    TrustDecay,
+}
+
+impl Protocol {
+    pub fn resolve_conflict(&mut self) -> Result<Consensus, Error> {
+        // ...
+    }
 }
 ```
 
 ---
 
-## CORE OPERATIONS  
-- **Conflict Resolution Engine** (CRDT-inspired mediation workflows)  
-- **Knowledge Graph Maintenance** (anti-entropy documentation systems)  
-- **Event Loop Optimization** (gatherings with O(1) nostalgia payoff)  
-- **Boundary Conditions** (safe space topology enforcement)  
-
----
-
-## NOTABLE RUNTIMES  
+## RUNTIMES  
 ```nginx
-# Production environments maintained under SLA
-location /communities {
-    proxy_pass http://retro-gaming-haven/1.2k_members;
-    proxy_set_header X-Resilience "Survived 2023 API wars";
-    
-    proxy_pass http://mental-health-safehouse/800+_members
-        if ($http_user_agent !~* "troll");
-    
-    proxy_pass http://digital-artist-collective/2024-edition
-        with ZeroDowntimeModerationUpgrade;
+# runtimes.conf
+http {
+    upstream communities {
+        zone resilience 128k;
+        server retro-gaming-haven:11200 max_fails=0;
+        server mental-health-safehouse:11201 backup;
+    }
+
+    server {
+        listen 443 ssl;
+        ssl_certificate /etc/letsencrypt/live/communities/fullchain.pem;
+        
+        location /communities/retro-gaming {
+            proxy_pass http://communities;
+            proxy_next_upstream error timeout http_503;
+        }
+    }
 }
-```
-
----
-
-## SYSTEM ARCHITECTURE  
-```mermaid
-graph TD
-  A[Member Input] -->|Schelling Point| B(Consensus Engine)
-  B --> C{Trust Graph}
-  C -->|Edge Weight| D[Moderation Pipeline]
-  C -->|Node Centrality| E[Leadership Emergence]
-  D --> F[Repair Protocol]
-  E --> G[Auto-Scaling Roles]
 ```
 
 ---
@@ -62,20 +57,13 @@ graph TD
 # metrics.py
 class CommunityHealth:
     def __init__(self):
-        self.sli = {
-            'toxicity_containment': 99.9%, 
-            'knowledge_retention': 95%ile,
-            'trust_gradient': PositiveDefiniteMatrix()
+        self.service_level_indicators = {
+            'toxicity_incident_resolution': 0.999,
+            'knowledge_retention': 0.95,
+            'trust_gradient': self._calculate_eigenvalues()
         }
         self.error_budget = ErrorBudget(
-            disputes_per_epoch=42,
-            burnout_rate=Δ<0.1
+            max_disputes=42, 
+            burnout_rate_limit=0.1
         )
 ```
-
----
-
-**// OODA Loop**  
-**O**bserve → **O**rient → **D**ecide → **A**ct  
-
-✉️ **RFC 5322 Compliance**: `rasphry@gmail.com`  
