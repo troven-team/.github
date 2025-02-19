@@ -1,21 +1,20 @@
-# <img src="https://em-content.zobj.net/thumbs/240/apple/325/rocket_1f680.png" width="28"> [Your Name] | Principal Engineer
+# <img src="https://em-content.zobj.net/thumbs/240/apple/325/rocket_1f680.png" width="28"> [Your Name] | Systems Strategist
 
-> **Systems Architect** · **Open Source Advocate** · **DevOps Anthropologist**
+> **Workflow Architect** · **Process Optimizer** · **Collaboration Catalyst**
 
-```python
-#!/usr/bin/env ethos
-# Axiom: Complexity should emerge from simplicity, not vice versa
+```diff
++ Philosophy: "Tools should serve people, not the other way around."
 ```
 
 ---
 
-### <img src="https://em-content.zobj.net/thumbs/240/google/350/gear_2699-fe0f.png" width="20"> Core Stack
+### <img src="https://em-content.zobj.net/thumbs/240/google/350/gear_2699-fe0f.png" width="20"> Tools of the Trade
 
-![Go](https://img.shields.io/badge/-Go-00ADD8?logo=go&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/-K8s-326CE5?logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/-Terraform-623CE4?logo=terraform&logoColor=white)
-![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?logo=graphql&logoColor=white)
-![Wasm](https://img.shields.io/badge/-Wasm-654FF0?logo=webassembly&logoColor=white)
+![Notion](https://img.shields.io/badge/-Notion-000000?logo=notion&logoColor=white)
+![Airtable](https://img.shields.io/badge/-Airtable-2B2D42?logo=airtable&logoColor=white)
+![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white)
+![Linear](https://img.shields.io/badge/-Linear-5E6AD2?logo=linear&logoColor=white)
+![Slack](https://img.shields.io/badge/-Slack-4A154B?logo=slack&logoColor=white)
 
 ---
 
@@ -23,63 +22,60 @@
 
 ```mermaid
 graph LR
-  A[Systems] --> B(Observability)
-  A --> C(Resilience Patterns)
-  D[Infra] --> E(Cloud-Native DNA)
-  D --> F(Chaos Engineering)
+  A[Ideas] --> B(Process Design)
+  A --> C(Team Alignment)
+  D[Tools] --> E(Workflow Automation)
+  D --> F(User Advocacy)
 ```
 
 </div>
 
 ---
 
-### <img src="https://em-content.zobj.net/thumbs/240/apple/325/chart-increasing_1f4c8.png" width="20"> Current Trajectory
+### <img src="https://em-content.zobj.net/thumbs/240/apple/325/chart-increasing_1f4c8.png" width="20"> Current Focus
 
-```rust
-// Building in stealth:
-struct NextGenPlatform {
-    runtime: Box<dyn WasmEdge>,
-    orchestration: K8sOperator,
-    observability: TelemetryPipeline,
-}
-```
+**Building systems that help teams:**  
+✅ Reduce tool chaos  
+✅ Clarify priorities  
+✅ Ship work faster  
+
+*(No code required – just smart workflows!)*
 
 ---
 
-### <img src="https://em-content.zobj.net/thumbs/240/apple/325/card-index-dividers_1f5c2-fe0f.png" width="20"> Operational Artifacts
+### <img src="https://em-content.zobj.net/thumbs/240/apple/325/card-index-dividers_1f5c2-fe0f.png" width="20"> Active Projects
 
 <table>
   <tr>
     <td width="50%">
     
-#### 🏗️ Active Foundations
-- [ ] [Envoy WASM Filter Framework](https://github.com/...)
-- [ ] [K8s Admission Controller Toolkit](https://github.com/...)
+#### 🏗️ Process Templates
+- [Team Prioritization Framework](https://your-notion-link.com)  
+*(Notion template for sprint planning)*
+- [Cross-Functional Playbook](https://your-airtable-link.com)  
+*(Airtable base for project handoffs)*
     </td>
     <td width="50%">
     
-#### 🧪 Experimental Lab
-- [Temporal Workflow Optimizer](https://github.com/...)
-- [eBPF-based Service Mesh](https://github.com/...)
+#### 🧪 Experiments
+- [Meeting Cost Calculator](https://your-figma-link.com)  
+*(Figma prototype for optimizing agendas)*
+- [Async Work Hub](https://your-slack-channel.com)  
+*(Slack channel for documentation)*
     </td>
   </tr>
 </table>
 
 ---
 
-### <img src="https://em-content.zobj.net/thumbs/240/apple/325/satellite-antenna_1f4e1.png" width="20"> Contact Protocol
+### <img src="https://em-content.zobj.net/thumbs/240/apple/325/satellite-antenna_1f4e1.png" width="20"> Let’s Connect
 
-```nginx
-# Preferred channels
-location /connect {
-    proxy_pass https://linkedin.com/in/[username];
-    proxy_pass mailto:name@domain.com;
-    proxy_pass ssh://git@github.com/[username].pub;
-}
+🔗 [LinkedIn](https://linkedin.com/in/your-profile)  
+📧 [Email](mailto:you@domain.com)  
+🗓️ [Schedule a Chat](https://calendly.com/your-link)  
 
-# PGP: 4096R/0xABCD1234
 ```
 
 ---
 
-![Metrics](https://raw.githubusercontent.com/[username]/[username]/main/github-metrics.svg)
+**Metrics**: Track my team’s workflow impact → [Troven Dashboard](https://linear.app/troven)
